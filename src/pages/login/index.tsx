@@ -3,6 +3,7 @@ import {useTranslation} from "react-i18next";
 import {Formik} from 'formik'
 import clsx from 'clsx'
 
+import useValidationsMessages from "lib/hooks/useValidationsMessages";
 import LOGIN_VALIDATIONS from 'lib/validations/login'
 
 import UserIcon from 'static/images/icons/ic_usuario.png'
@@ -12,7 +13,9 @@ import useStyles from './styles'
 
 const Login = () => {
   const classes = useStyles()
-  const {t} = useTranslation(['auth_layout', 'validations'])
+  const {t} = useTranslation('auth_layout')
+
+  const validationsSchema = useValidationsMessages(LOGIN_VALIDATIONS)
 
   const onSubmit = (values: { username: string; password: string }) => {
     console.log(values)
@@ -22,9 +25,7 @@ const Login = () => {
     <Formik
       initialValues={{username: '', password: ''}}
       onSubmit={onSubmit}
-      validationSchema={LOGIN_VALIDATIONS({
-        required: t('validations:required', 'Campo requerido')
-      })}
+      validationSchema={validationsSchema}
     >
       {({handleSubmit, handleChange, handleBlur, values, errors, touched}) => (
         <form
@@ -69,7 +70,7 @@ const Login = () => {
             {t('auth_layout:form.forgot_password', '¿Olvidaste tu contraseña?')}
           </Link>
           <Button variant='contained' color='primary' type='submit'>
-            {t('auth_layout:form.login_btn', 'Iniciar sesión')}
+            {t('auth_layout:form.login_button', 'Iniciar sesión')}
           </Button>
         </form>
       )}
