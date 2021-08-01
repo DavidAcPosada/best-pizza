@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next'
 
 import {AuthRoutes} from 'routes'
 
-import Pizza from 'static/images/shared/Pizza.png'
+import Pizza from 'static/images/shared/Pizza.webp'
 import Brand from 'static/images/brand/Login-Best-Pizza.png'
 
 import LanguageSelector from 'components/languageSelector'

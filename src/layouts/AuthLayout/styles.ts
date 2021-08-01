@@ -1,6 +1,6 @@
 import {makeStyles, Theme} from "@material-ui/core";
 
-import Background from 'static/images/background/imagebkg.png'
+import Background from 'static/images/background/imagebkg.webp'
 
 const styles = makeStyles((theme: Theme) => ({
   root: {
