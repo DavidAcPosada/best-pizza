@@ -1,0 +1,22 @@
+<svg id="ES" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="40" viewBox="0 0 56 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="56" height="40" rx="4" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="56" height="40" rx="4" fill="#fff"/>
+  <g id="ES-2" data-name="ES" clip-path="url(#clip-path)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="56" height="10.667" fill="#dd172c"/>
+    <rect id="Rectangle_2-2" data-name="Rectangle 2" width="56" height="10.667" transform="translate(0 29.333)" fill="#dd172c"/>
+    <rect id="Rectangle_2-3" data-name="Rectangle 2" width="56" height="18.667" transform="translate(0 10.667)" fill="#ffd133"/>
+    <rect id="Rectangle_139_Copy" data-name="Rectangle 139 Copy" width="2.667" height="1.333" transform="translate(14.667 18.667)" fill="#ffedb1"/>
+    <g id="Rectangle_137" data-name="Rectangle 137" transform="translate(11.439 17.333)" fill="none" stroke-miterlimit="10">
+      <path d="M.015,1.444A1.333,1.333,0,0,1,1.343,0H5.112A1.333,1.333,0,0,1,6.441,1.444L6.1,5.555A2.667,2.667,0,0,1,3.441,8H3.015A2.667,2.667,0,0,1,.357,5.555Z" stroke="none"/>
+      <path d="M 1.343453884124756 1.333330154418945 L 1.686024188995361 5.444069862365723 C 1.743154048919678 6.129640102386475 2.326794147491455 6.666669845581055 3.01474404335022 6.666669845581055 L 3.440704107284546 6.666669845581055 C 4.128654003143311 6.666669845581055 4.712294101715088 6.129640102386475 4.769423961639404 5.444060325622559 L 5.111993789672852 1.333330154418945 L 1.343453884124756 1.333330154418945 M 1.343453884124756 0 L 5.111993789672852 0 C 5.892044067382813 0 6.505494117736816 0.6666998863220215 6.440713882446289 1.4440598487854 L 6.098154067993164 5.554790019989014 C 5.982984066009521 6.93690013885498 4.827604293823242 8 3.440704107284546 8 L 3.01474404335022 8 C 1.627843856811523 8 0.4724640846252441 6.93690013885498 0.3572940826416016 5.554790019989014 L 0.0147242546081543 1.4440598487854 C -0.05004596710205078 0.6666998863220215 0.5634040832519531 0 1.343453884124756 0 Z" stroke="none" fill="#a41517"/>
+    </g>
+    <path id="Rectangle_139" data-name="Rectangle 139" d="M0,0H5.333V1.333H4L2.667,4,1.333,1.333H0Z" transform="translate(12 20)" fill="#a41517"/>
+    <rect id="Rectangle_135" data-name="Rectangle 135" width="2.667" height="9.333" rx="1.333" transform="translate(8 16)" fill="#a41517"/>
+    <rect id="Rectangle_135_Copy" data-name="Rectangle 135 Copy" width="2.667" height="9.333" rx="1.333" transform="translate(18.667 16)" fill="#a41517"/>
+    <path id="Rectangle_138" data-name="Rectangle 138" d="M2.133,0H3.2A2.133,2.133,0,0,1,5.333,2.133v0a.533.533,0,0,1-.533.533H.533A.533.533,0,0,1,0,2.133v0A2.133,2.133,0,0,1,2.133,0Z" transform="translate(12 13.333)" fill="#a41517"/>
+  </g>
+</svg>

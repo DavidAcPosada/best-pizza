@@ -1,0 +1,10 @@
+{
+  "title": "Welcome",
+  "subtitle": "To the world best pizzas",
+  "form": {
+    "username": "Username",
+    "password": "Password",
+    "forgot_password": "Forgot password?",
+    "login_button": "Login"
+  }
+}

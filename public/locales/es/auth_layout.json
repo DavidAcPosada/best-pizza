@@ -1,0 +1,10 @@
+{
+  "title": "Bienvenido",
+  "subtitle": "A las mejores pizzas del mundo",
+  "form": {
+    "username": "Usuario",
+    "password": "Contraseña",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "login_btn": "Iniciar sesión"
+  }
+}

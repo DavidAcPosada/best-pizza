@@ -1,0 +1,5 @@
+{
+  "required": "Campo requerido",
+  "only_numbers": "Solo se permiten números",
+  "email_invalid": "Correo electrónico inválido"
+}
