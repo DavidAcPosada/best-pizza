@@ -1,3 +1,4 @@
 export const authInitialState = {
-  logged: false
+  logged: false,
+  info: {}
 }

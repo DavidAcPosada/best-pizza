@@ -6,5 +6,9 @@
     "password": "Password",
     "forgot_password": "Forgot password?",
     "login_button": "Login"
+  },
+  "messages": {
+    "user_not_found": "User not found",
+    "user_wrong": "User or password wrong"
   }
 }

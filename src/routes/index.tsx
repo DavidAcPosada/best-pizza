@@ -1,6 +1,6 @@
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
 
-import { AuthLayout, AppLayout } from 'layouts'
+import {AuthLayout, AppLayout} from 'layouts'
 
 const Routes = () => (
   <Router>
@@ -12,9 +12,14 @@ const Routes = () => (
       path='/app'
       component={AppLayout}
     />
+    <Redirect
+      to='/auth/login'
+      from='/auth'
+      exact
+    />
   </Router>
 )
 
-export { default as AuthRoutes } from './auth.route'
-export { default as AppRoute } from './app.route'
+export {default as AuthRoutes} from './auth.route'
+export {default as AppRoute} from './app.route'
 export default Routes

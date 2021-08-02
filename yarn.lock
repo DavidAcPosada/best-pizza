@@ -2953,6 +2953,13 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.2.tgz#fcf8777b82c62cfc69c7e9f32c0d2226287680e7"
   integrity sha512-5LMaDRWm8ZFPAEdzTYmgjjEdj1YnQcpfrVajO/sn/LhbpGp0Y0H64c2hLZI1gRMxfA+w1S71Uc/nHaOXgcCvGg==
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -3708,7 +3715,7 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clsx@^1.0.4, clsx@^1.1.1:
+clsx@^1.0.4, clsx@^1.1.0, clsx@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
   integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
@@ -5572,6 +5579,11 @@ follow-redirects@^1.0.0:
   integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
   dependencies:
     debug "^3.0.0"
+
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -8372,6 +8384,14 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
+
+notistack@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/notistack/-/notistack-1.0.10.tgz#8db90830034383467a04184f1fa8ff77f4fc58a5"
+  integrity sha512-z0y4jJaVtOoH3kc3GtNUlhNTY+5LE04QDeLVujX3VPhhzg67zw055mZjrBF+nzpv3V9aiPNph1EgRU4+t8kQTQ==
+  dependencies:
+    clsx "^1.1.0"
+    hoist-non-react-statics "^3.3.0"
 
 npm-bundled@^1.0.1:
   version "1.0.6"

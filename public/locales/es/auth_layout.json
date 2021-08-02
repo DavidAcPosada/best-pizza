@@ -6,5 +6,9 @@
     "password": "Contraseña",
     "forgot_password": "¿Olvidaste tu contraseña?",
     "login_btn": "Iniciar sesión"
+  },
+  "messages": {
+    "user_not_found": "Usuario no encontrado",
+    "user_wrong": "Usuario o contraseña incorrectos"
   }
 }

@@ -6,6 +6,7 @@ const authReducer = (state = authInitialState, action: { type: string, payload: 
     case LOGIN:
       return {
         ...state,
+        info: action.payload,
         logged: true
       }
     default:
