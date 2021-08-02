@@ -14,6 +14,13 @@ export interface UserInfo {
   password?: string;
 }
 
+/*
+* login
+* User authentication
+*
+* @param username: string
+* @param password: string
+* */
 const login = async ({ username, password }: LoginValues) => {
   try {
     return await axios.get(CONSTANT.DATA).then(({ data }: any) => {
@@ -31,6 +38,13 @@ const login = async ({ username, password }: LoginValues) => {
   }
 }
 
+/*
+* getUserInfo
+* Search user on data and validate id storage on app
+*
+* @params userId: number
+* returns UserInfo | null
+* */
 const getUserInfo = async (userId: number) => {
   try {
     if (Number.isSafeInteger(userId)) {

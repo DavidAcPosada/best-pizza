@@ -1,5 +1,5 @@
 import {createContext, ReactNode, useEffect} from "react";
-import {useHistory} from "react-router-dom";
+import {useHistory, useLocation} from "react-router-dom";
 import {useDispatch} from "react-redux";
 
 import { getUserInfo } from 'api/auth'
@@ -11,6 +11,7 @@ const AuthContext = createContext({})
 const AuthProvider = ({ children }: { children: ReactNode }) => {
   const userId = Number(localStorage.getItem('userId'))
   const dispatch = useDispatch()
+  const { pathname } = useLocation()
   const history = useHistory()
 
   useEffect(() => {
@@ -32,7 +33,7 @@ const AuthProvider = ({ children }: { children: ReactNode }) => {
     } else {
       history.push('/auth/login')
     }
-  }, [])
+  }, [dispatch, history, pathname, userId])
 
   return (
     <AuthContext.Provider value={{}}>

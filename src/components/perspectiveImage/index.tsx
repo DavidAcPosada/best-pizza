@@ -31,6 +31,9 @@ const PerspectiveImage = ({ src, alt, ...props }: PerspectiveImageProps) => {
   return (
     <motion.img
       onPointerMove={onMove}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.7, duration: 0.4, ease: 'easeOut' }}
       src={src}
       alt={alt}
       style={{

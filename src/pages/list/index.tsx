@@ -1,8 +1,14 @@
+import BannerContainer from "components/bannerContainer";
+
+import useStyles from './styles'
+
 const List = () => {
+  const classes = useStyles()
+
   return (
-    <div>
+    <BannerContainer classes={{ content: classes.content }}>
       Listado
-    </div>
+    </BannerContainer>
   )
 }
 
