@@ -31,4 +31,20 @@ const login = async ({ username, password }: LoginValues) => {
   }
 }
 
-export { login }
+const getUserInfo = async (userId: number) => {
+  try {
+    if (Number.isSafeInteger(userId)) {
+      return await axios.get(CONSTANT.DATA).then(({ data }) => {
+        const userFound = data.response?.users?.find((user: UserInfo) => user.id === userId)
+        if (!userFound) return null
+        return userFound
+      })
+    } else {
+      return null
+    }
+  } catch(e) {
+    console.error(e)
+  }
+}
+
+export { login, getUserInfo }

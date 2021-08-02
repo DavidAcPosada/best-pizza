@@ -7,18 +7,19 @@ import store from 'config/createStore'
 import theme from "config/theme";
 
 import Routes from 'routes'
+import LoaderPage from "./components/loaderPage";
 
 function App() {
   return (
-    <Suspense fallback={<p>Cargando...</p>}>
-      <SnackbarProvider maxSnack={3}>
-        <Provider store={store}>
+    <Suspense fallback={<LoaderPage/>}>
+      <Provider store={store}>
+        <SnackbarProvider maxSnack={3}>
           <MuiThemeProvider theme={theme}>
             <CssBaseline/>
             <Routes/>
           </MuiThemeProvider>
-        </Provider>
-      </SnackbarProvider>
+        </SnackbarProvider>
+      </Provider>
     </Suspense>
   );
 }

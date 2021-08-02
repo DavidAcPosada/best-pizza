@@ -1,6 +1,14 @@
+import {Route, Switch} from "react-router-dom";
+import List from "pages/list";
+
 const AppRoutes = () => {
   return (
-    <div>App routes</div>
+    <Switch>
+      <Route
+        component={List}
+        path='/'
+      />
+    </Switch>
   )
 }
 

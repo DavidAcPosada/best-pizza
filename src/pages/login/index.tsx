@@ -52,6 +52,7 @@ const Login = () => {
       type: LOGIN,
       payload: result.data
     })
+    localStorage.setItem('userId', result.data.id)
     history.push('/app')
   }
 
