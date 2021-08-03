@@ -5,7 +5,8 @@ const styles = makeStyles((theme: Theme) => ({
   root: {
     display: 'flex',
     height: '100vh',
-    maxHeight: '100vh'
+    maxHeight: '100vh',
+    overflow: 'hidden'
   },
   banner: {
     width: '40%',

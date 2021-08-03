@@ -2,10 +2,10 @@ import {makeStyles, Theme} from "@material-ui/core";
 
 const styles = makeStyles((theme: Theme) => ({
   root: {
-    width: '100%',
+    width: '60%',
     padding: theme.spacing(3.5, 0),
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
   },
   form: {
     textAlign: 'center',

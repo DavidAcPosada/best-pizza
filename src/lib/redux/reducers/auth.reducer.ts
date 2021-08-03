@@ -1,4 +1,4 @@
-import {LOGIN} from '../types/auth.types'
+import {LOGIN, LOGOUT} from '../types/auth.types'
 import {authInitialState} from "../initial-states/auth.initial-state";
 
 const authReducer = (state = authInitialState, action: { type: string, payload: any }) => {
@@ -9,6 +9,8 @@ const authReducer = (state = authInitialState, action: { type: string, payload: 
         info: action.payload,
         logged: true
       }
+    case LOGOUT:
+      return authInitialState;
     default:
       return state;
   }
